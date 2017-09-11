@@ -18,7 +18,7 @@ public class SignUp {
 		    driver.findElement(By.xpath("//a[text()='Sign Up Free']")).click();
 			driver.findElement(By.xpath("//input[@id='name'][@placeholder='Your name']")).sendKeys("alisha");
 			driver.findElement(By.xpath("//*[@id='email'][@placeholder='Your email']")).sendKeys("alisha@gmail.com");
-			driver.findElement(By.id("mobile")).sendKeys("9347690790");
+			driver.findElement(By.id("mobile")).sendKeys("9347690777");
 			driver.findElement(By.id("sub_btn_signup")).click();  
 		    driver.findElement(By.xpath("//input[@id='otp']")).sendKeys("1244");
 			driver.findElement(By.cssSelector("button#sub_btn_verify")).click();
