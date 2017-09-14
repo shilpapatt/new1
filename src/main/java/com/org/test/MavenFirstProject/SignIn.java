@@ -19,7 +19,8 @@ public class SignIn {
 		driver.findElement(By.cssSelector("input#repassword")).sendKeys("strong1@2");
 		driver.findElement(By.cssSelector("button#sub_btn_setpass")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector("input#login-mobile")).sendKeys("9347690777");
+		driver.findElement(By.cssSelector("input#login-mobile")).sendKeys(""
+				+ "");
 		Thread.sleep(5000);
      	driver.findElement(By.cssSelector("//input[@id='login-password'][@type='password']")).sendKeys("Stronger@2");
      	driver.findElement(By.xpath("//button[contains(text(),'Log in')]")).click();

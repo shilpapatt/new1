@@ -16,7 +16,7 @@ public class SignUp {
 			public void signup() {
 		  //  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		    driver.findElement(By.xpath("//a[text()='Sign Up Free']")).click();
-			driver.findElement(By.xpath("//input[@id='name'][@placeholder='Your name']")).sendKeys("alisha");
+			driver.findElement(By.xpath("//input[@id='name'][@placeholder='Your name']")).sendKeys("11alishaPat");
 			driver.findElement(By.xpath("//*[@id='email'][@placeholder='Your email']")).sendKeys("alisha@gmail.com");
 			driver.findElement(By.id("mobile")).sendKeys("9347690777");
 			driver.findElement(By.id("sub_btn_signup")).click();  
