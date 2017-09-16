@@ -19,7 +19,7 @@ public class SignUp {
 			driver.findElement(By.xpath("//*[@id='email'][@placeholder='Your email']")).sendKeys("shilpaalisha@gmail.com");
 			driver.findElement(By.id("mobile")).sendKeys("9347690777");
 			driver.findElement(By.id("sub_btn_signup")).click();  
-		    driver.findElement(By.xpath("//input[@id='otp']")).sendKeys("1244");
+		    driver.findElement(By.xpath("//input[@id='otp']")).sendKeys("666666");
 			driver.findElement(By.cssSelector("button#sub_btn_verify")).click();
 		    driver.findElement(By.cssSelector("button.confirm")).click();
 	        }
